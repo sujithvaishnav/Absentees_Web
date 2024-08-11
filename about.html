@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About - Absentees</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="static\styles.css">
 </head>
 
 <body>
     <header>
-        <img src="{{ url_for('static', filename='logo.png') }}" alt="My App Logo" class="logo">
+        <img src="static\logo.png" alt="My App Logo" class="logo">
         <h1>ABSENTEES</h1>
         <button class="download-btn" onclick="downloadApp()">Download</button>
     </header>
@@ -46,9 +46,9 @@
     <section id="buttons">
         <nav>
             <ul>
-                <li><a href="{{ url_for('index') }}">Home</a></li>
-                <li><a href="{{ url_for('about') }}">Info</a></li>
-                <li><a href="{{ url_for('contact') }}">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Info</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </section>
